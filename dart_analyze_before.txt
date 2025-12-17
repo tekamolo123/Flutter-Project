@@ -1,0 +1,8 @@
+Analyzing first_flutter_project...
+
+warning - lib\registration_page.dart:3:8 - Unused import: 'routes.dart'. Try removing the import directive. - unused_import
+warning - test\widget_test.dart:8:8 - Unused import: 'package:flutter/material.dart'. Try removing the import directive. - unused_import
+warning - test\widget_test.dart:9:8 - Unused import: 'package:flutter_test/flutter_test.dart'. Try removing the import directive. - unused_import
+warning - test\widget_test.dart:11:8 - Unused import: 'package:first_flutter_project/main.dart'. Try removing the import directive. - unused_import
+
+4 issues found.

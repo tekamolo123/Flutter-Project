@@ -26,10 +26,7 @@ class _LoginPageState extends State<LoginPage> {
     if (!_formKey.currentState!.validate()) return;
 
     try {
-      await AuthService.login(
-        email: _emailC.text,
-        password: _passC.text,
-      );
+      await AuthService.login(email: _emailC.text, password: _passC.text);
 
       if (!mounted) return;
       Navigator.pushReplacementNamed(context, AppRoutes.home);
